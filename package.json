@@ -1,0 +1,29 @@
+{
+  "name": "javascript-datastructures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "codecov": "^1.0.1",
+    "jest": "^18.1.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:cov": "jest && codecov"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gin280/javascript-datastructures.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gin280/javascript-datastructures/issues"
+  },
+  "homepage": "https://github.com/gin280/javascript-datastructures#readme"
+}
